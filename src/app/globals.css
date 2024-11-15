@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'UtsukushiFONT';
+    src: url('/fonts/UtsukushiFONT.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SawarabiGothic';
+    src: url('/fonts/SawarabiGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Utsukushifont {
+    font-family: 'UtsukushiFONT', sans-serif;
+}
+.SawarabiGothic {
+    font-family: 'SawarabiGothic', sans-serif;
+}
