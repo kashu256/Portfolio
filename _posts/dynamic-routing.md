@@ -1,19 +1,44 @@
 ---
-title: "Dynamic Routing and Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+title: "ARを利用したToDoリストについて"
+excerpt: "ARを利用したToDoリストを装した時の画面や、紹介動画などを上げています。"
+coverImage: "/assets/blog/dynamic-routing/VRC_1.png"
+date: "2024-12-16T05:35:07.322Z"
 author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
+  name: Kashu
+  # picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+  url: "/assets/blog/dynamic-routing/VRC_1.png"
 ---
+## 企画について
+皆さんはやりたくないけどやらなければならないこと、忘れちゃいけないこと、どのように管理していますか？  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+パッと思いつくのがToDoリストじゃないかなと思います。  
+ToDoリストを作りやるべきことを行い用事が終わったら削除する。とても良いと思います。  
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+そんなToDoリストにも弱点がある。  
+それは自分で確認しなきゃいけないってところ。  
+めんどくさがりとしてはこれが結構苦労するところで、わざわざリストを作るだけでもめんどくさいのにさらにそこから確認までしなきゃいけないってなったらあんまり使いたくなくなっちゃうんですよね。  
 
-## Lorem Ipsum
+そんな時、必ず確認して実行できるものを思い出しました。  
+それはゲームやLINEなどの通知です。  
+iPhoneのLINEについてる赤色の数字とか、モンストとかパズドラとかのゲームについてる！マークとか。  
+あれめっちゃ気になりません？僕だけ？  
+
+そんな感じで、
+
+**ToDoリストもやらなきゃいけないところに目立つ感じで置いとけば勝手に消化できるんじゃね？**  
+
+って思ったのがこの企画の始まりです。
+
+## どうやって作ろう
+最初に思いついたのはARグラス。  
+普段から眼鏡をかけ続けている僕からすれば毎朝起きるたびにARグラスをかけるなんて造作もないこと。  
+でも現実的な問題が一つ。  
+ARグラスって案外高くね。  
+
+安いものでも1万円はするし、高いのだと平気で桁一個増えちゃうし。  
+
+
+## 実際に作成したイメージ動画
 
 Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
