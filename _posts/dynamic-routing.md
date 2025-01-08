@@ -1,13 +1,13 @@
 ---
 title: "ARを利用したToDoリストについて"
 excerpt: "ARを利用したToDoリストを装した時の画面や、紹介動画などを上げています。"
-coverImage: "/assets/blog/dynamic-routing/VRC_1.png"
-date: "2024-12-16T05:35:07.322Z"
+coverImage: "/assets/blog/ToDolist/VRC_1.png"
+date: "2025-01-09T05:35:07.322Z"
 author:
   name: Kashu
   # picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
-  url: "/assets/blog/dynamic-routing/VRC_1.png"
+  url: "/assets/blog/ToDOlist/VRC_1.png"
 ---
 ## 企画について
 皆さんはやりたくないけどやらなければならないこと、忘れちゃいけないこと、どのように管理していますか？  
@@ -34,11 +34,35 @@ iPhoneのLINEについてる赤色の数字とか、モンストとかパズド�
 最初に思いついたのはARグラス。  
 普段から眼鏡をかけ続けている僕からすれば毎朝起きるたびにARグラスをかけるなんて造作もないこと。  
 でも現実的な問題が一つ。  
-ARグラスって案外高くね。  
+
+**ARグラスって案外高くね。**  
 
 安いものでも1万円はするし、高いのだと平気で桁一個増えちゃうし。  
+買えないものはしょうがないんで自分なりのイメージを表現してみようと思います。
 
+どうすれば表現できるかなってことを考えたときに思いついたのがVRChatでした。  
+これなら自分の部屋を再現して目に見えるToDoリストを作ればいい感じにイメージを表現できるんじゃねってことで作っていきます。
+
+## 部屋を作ろう
+部屋のモデルを作るにあったてSweet Home 3Dを使ってモデルを作ったんですが、  
+![Sweet Home 3D](/assets/blog/ToDOlist/3Dhome.png)
+なぜかUnity側が作ったモデルを読み込んでくれず、  
+部屋がもぬけの殻になってしまったので、  
+しかたなくBlenderで作り直しました。
+![Blender](/assets/blog/ToDOlist/Blender_1.png)
+Blenderは初めて触ったのですが、すごい難しくて部屋の大枠を作るだけで結構な時間がかかってしまいました...  
+
+## 家具をおこう
+そんなこんなでBlenderで作った部屋をUnityに読み込ませました。  
+ただ家具とかは全部ないんでいい感じにおいて行きます。
+![Unity](/assets/blog/ToDOlist/Unity_1.png)
+こんな感じで置いてみました。  
+
+## VRChatに上げよう
+作ったモデルをVRChatに上げて動き回れるようにします。
+と思ったんですけど、VRChatはトラストランクが一定以上ないとワールドを上げられない設定になっていて、10時間から数十時間プレイしないとワールドが上げられませんでした。；；  
+そこで心優しい知人（通称m45さん）にワールドを建てて貰ってVRChat週間が始まりました。
+![m45さん](/assets/blog/ToDOlist/m45.jpg)
+ありがとうm45さん
 
 ## 実際に作成したイメージ動画
-
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
