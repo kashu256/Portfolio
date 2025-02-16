@@ -4,27 +4,19 @@ import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
 import { Pagination } from "@/app/_components/pagination";
-import { PostCard } from "./_components/postcard";
+import Header from "@/app/_components/header";
+import { PostCard } from "../_components/postcard";
+
 
 export default function Index() {
   const allPosts = getAllPosts();
-
-  const heroPost = allPosts[0];
-
-  const morePosts = allPosts.slice(1);
+  const postsPerPage = 10;
 
   return (
     <main>
       <Container>
-        <Intro />
-        <HeroPost
-          title={heroPost.title}
-          coverImage={heroPost.coverImage}
-          date={heroPost.date}
-          author={heroPost.author}
-          slug={heroPost.slug}
-          excerpt={heroPost.excerpt}
-        />
+        <Header />
+        <Pagination posts={allPosts} postsPerPage={postsPerPage} />
       </Container>
     </main>
   );
