@@ -3,8 +3,7 @@ import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
-import { Pagination } from "@/app/_components/pagination";
-import { PostCard } from "./_components/postcard";
+import Link from "next/link";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -12,6 +11,7 @@ export default function Index() {
   const heroPost = allPosts[0];
 
   const morePosts = allPosts.slice(1);
+
 
   return (
     <main>
@@ -25,7 +25,13 @@ export default function Index() {
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         />
+        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Container>
+      <div className="flex justify-center my-8">
+        <Link className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition-colors duration-200" href="/posts">
+          一覧はこちら
+        </Link>
+      </div>
     </main>
   );
 }

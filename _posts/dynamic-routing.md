@@ -5,7 +5,7 @@ coverImage: "/assets/blog/ToDolist/VRC_1.png"
 date: "2025-01-09T05:35:07.322Z"
 author:
   name: Kashu
-  # picture: "/assets/blog/authors/jj.jpeg"
+  picture: "/assets/blog/authors/KASHU.png"
 ogImage:
   url: "/assets/blog/ToDOlist/VRC_1.png"
 ---

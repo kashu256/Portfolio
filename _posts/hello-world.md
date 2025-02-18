@@ -5,7 +5,7 @@ coverImage: "/assets/blog/dynamic-routing/IMG_2961.webp"
 date: "2024-12-22T05:35:07.322Z"
 author:
   name: Kashu
-  # picture: "/assets/blog/authors/tim.jpeg"
+  picture: "/assets/blog/authors/KASHU.png"
 ogImage:
   url: "/assets/blog/dynamic-routing/IMG_2961.webp"
 ---
