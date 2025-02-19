@@ -43,13 +43,13 @@ export function Pagination({ posts, postsPerPage }: PaginationProps) {
       </div>
 
       {/* ページネーション */}
-      <div className="flex space-x-2">
+      <div className="flex justify-center mt-4 space-x-2">
         {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
           <button
             key={page}
             onClick={() => setCurrentPage(page)}
             disabled={page === currentPage}
-            className="px-3 py-1 bg-gray-200 disabled:bg-gray-400"
+            className="px-4 py-2 bg-gray-400 text-white rounded hover:bg-blue-700 transition-colors disabled:bg-blue-500"
           >
             {page}
           </button>
