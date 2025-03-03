@@ -2,7 +2,7 @@
 title: "ARを利用したToDoリストについて"
 excerpt: "ARを利用したToDoリストを装した時の画面や、紹介動画などを上げています。"
 coverImage: "/assets/blog/ToDolist/VRC_1.png"
-date: "2025-01-09T05:35:07.322Z"
+date: "2025-03-04T05:35:07.322Z"
 author:
   name: Kashu
   picture: "/assets/blog/authors/KASHU.png"
@@ -66,3 +66,7 @@ Blenderは初めて触ったのですが、すごい難しくて部屋の大枠�
 ありがとうm45さん
 
 ## 実際に作成したイメージ動画
+<video width="600" controls>
+  <source src="/assets/blog/ToDOlist/SK32.mp4" type="video/mp4">
+  お使いのブラウザは動画タグに対応していません。
+</video>

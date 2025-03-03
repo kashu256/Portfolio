@@ -6,7 +6,7 @@ export function SelfIntro() {
       <div className="border border-gray-200 p-4 rounded shadow hover:shadow-lg transition-shadow mb-8 w-full max-w-sm">
         <div className="flex items-center space-x-4 mb-4">
           <Image
-            src="/path/to/your/image.jpg" // 画像のパスを指定してください
+            src="/assets/blog/authors/KASHU.png" // 画像のパスを指定してください
             alt="Profile Picture"
             width={50}
             height={50}
@@ -14,7 +14,7 @@ export function SelfIntro() {
           />
           <h2 className="text-xl font-bold">自己紹介</h2>
         </div>
-        <p>ここに自己紹介などを掲載します。</p>
+        <p>川上佳修です。<br></br>普段はご飯を食べたりゲームをしたりしています。 <br></br>作成した作品の紹介や日々の記録を残して行くので、興味があったら是非読んでみてください。</p>
       </div>
     </aside>
   );
