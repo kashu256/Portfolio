@@ -21,10 +21,8 @@ ogImage:
 その結果初心者コースにも関わらず下りきるまでに2時間弱もかかってしまいました。
 
 ## 動画
-<video width="600" controls>
-  <source src="/assets/blog/skiing/VID_20250228_130228.mp4" type="video/mp4">
-  お使いのブラウザは動画タグに対応していません。
-</video>
+
+https://youtu.be/Z_NjASjR2nM
 
 お昼休憩をはさみ、初心者動画を見あさることでちょっとだけですが滑れるようにはなりました。
 

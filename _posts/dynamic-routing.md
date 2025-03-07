@@ -45,28 +45,26 @@ iPhoneのLINEについてる赤色の数字とか、モンストとかパズド�
 
 ## 部屋を作ろう
 部屋のモデルを作るにあったてSweet Home 3Dを使ってモデルを作ったんですが、  
-![Sweet Home 3D](/assets/blog/ToDOlist/3Dhome.png)
+![Sweet Home 3D](/assets/blog/ToDolist/3Dhome.png)
 なぜかUnity側が作ったモデルを読み込んでくれず、  
 部屋がもぬけの殻になってしまったので、  
 しかたなくBlenderで作り直しました。
-![Blender](/assets/blog/ToDOlist/Blender_1.png)
+![Blender](/assets/blog/ToDolist/Blender_1.png)
 Blenderは初めて触ったのですが、すごい難しくて部屋の大枠を作るだけで結構な時間がかかってしまいました...  
 
 ## 家具をおこう
 そんなこんなでBlenderで作った部屋をUnityに読み込ませました。  
 ただ家具とかは全部ないんでいい感じにおいて行きます。
-![Unity](/assets/blog/ToDOlist/Unity_1.png)
+![Unity](/assets/blog/ToDolist/Unity_1.png)
 こんな感じで置いてみました。  
 
 ## VRChatに上げよう
 作ったモデルをVRChatに上げて動き回れるようにします。
 と思ったんですけど、VRChatはトラストランクが一定以上ないとワールドを上げられない設定になっていて、10時間から数十時間プレイしないとワールドが上げられませんでした。；；  
 そこで心優しい知人（通称m45さん）にワールドを建てて貰ってVRChat週間が始まりました。
-![m45さん](/assets/blog/ToDOlist/m45.jpg)
+![m45さん](/assets/blog/ToDolist/m45.jpg)
 ありがとうm45さん
 
 ## 実際に作成したイメージ動画
-<video width="600" controls>
-  <source src="/assets/blog/ToDOlist/SK32.mp4" type="video/mp4">
-  お使いのブラウザは動画タグに対応していません。
-</video>
+
+https://youtu.be/aFgLM7X44H0

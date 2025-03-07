@@ -1,5 +1,4 @@
 import { CMS_NAME } from "@/lib/constants";
-import "../globals.css";
 
 export function Intro() {
   return (
