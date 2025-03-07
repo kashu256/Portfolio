@@ -49,13 +49,13 @@ iPhoneのLINEについてる赤色の数字とか、モンストとかパズド�
 なぜかUnity側が作ったモデルを読み込んでくれず、  
 部屋がもぬけの殻になってしまったので、  
 しかたなくBlenderで作り直しました。
-![Blender](/assets/blog/ToDolist/Blender_1.png)
+![Blender](/assets/blog/ToDolist/blender_1.png)
 Blenderは初めて触ったのですが、すごい難しくて部屋の大枠を作るだけで結構な時間がかかってしまいました...  
 
 ## 家具をおこう
 そんなこんなでBlenderで作った部屋をUnityに読み込ませました。  
 ただ家具とかは全部ないんでいい感じにおいて行きます。
-![Unity](/assets/blog/ToDolist/Unity_1.png)
+![Unity](/assets/blog/ToDolist/unity_1.png)
 こんな感じで置いてみました。  
 
 ## VRChatに上げよう
