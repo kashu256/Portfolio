@@ -30,17 +30,17 @@ export default async function Post(props: Params) {
             date={post.date}
             author={post.author}
           />
-          <div className="flex flex-col md:flex-row md:space-x-6">
-            <div className="md:w-2/3 lg:w-3/4">
+          <div className="flex flex-col md:flex-row md:space-x-3">
+            <div className="md:w-3/5 lg:w-2/3">
               <PostBody content={content} />
             </div>
-            <div className="md:w-1/3 lg:w-1/4 mt-6 md:mt-0">
-              <div className="sticky top-4 bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
-                <h3 className="font-bold text-lg mb-3 text-gray-700 border-b pb-2">目次</h3>
+            <div className="md:w-2/5 lg:w-1/3 mt-6 md:mt-0">
+              <div className="sticky top-4 bg-white p-5 rounded-lg border border-gray-200 shadow-sm min-h-[300px]">
+                <h3 className="font-bold text-xl mb-4 text-gray-700 border-b pb-2">目次</h3>
                 <Sidebar />
               </div>
             </div>
-</div>
+          </div>
         </article>
       </Container>
     </main>

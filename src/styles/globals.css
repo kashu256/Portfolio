@@ -26,3 +26,64 @@
 body {
     color: #383838;
 }
+
+/* サイドバーおよび目次のスタイリング */
+.toc-list {
+    @apply list-none pl-0 space-y-1;
+}
+
+.toc-list .toc-list {
+    @apply pl-3 mt-1 ml-1 border-l border-gray-200;
+}
+
+.toc-list-item {
+    @apply my-1;
+}
+
+.toc-link {
+    @apply block py-1 text-gray-500 hover:text-gray-800 transition-colors duration-150 text-sm;
+}
+
+.is-active-link {
+    @apply text-blue-600 font-medium;
+}
+
+.is-active-item > .toc-link {
+    @apply pl-2 relative;
+}
+
+.is-active-item > .toc-link::before {
+    content: '';
+    @apply absolute left-0 top-1/2 -translate-y-1/2 w-1 h-4 bg-blue-500 rounded-r;
+}
+
+/* スクロールバーのカスタマイズ */
+.toc {
+    @apply overflow-auto max-h-[calc(100vh-200px)] pr-2;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e0 #f7fafc;
+}
+
+.toc::-webkit-scrollbar {
+    @apply w-1.5;
+}
+
+.toc::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded;
+}
+
+.toc::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded hover:bg-gray-400;
+}
+
+.toc-link {
+    @apply block py-2 text-gray-500 hover:text-gray-800 transition-colors duration-150 text-base;
+  }
+  
+  .toc-list-item {
+    @apply my-2;
+  }
+  
+  .is-active-link {
+    @apply text-blue-600 font-medium;
+  }

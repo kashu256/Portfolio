@@ -18,7 +18,6 @@ const Toc = () => {
 
 	return (
 		<div>
-			<h1>目次</h1>
 			<div>
 				<nav className="toc"/>
 			</div>
