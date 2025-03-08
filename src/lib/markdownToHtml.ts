@@ -8,11 +8,13 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 import remarkYoutube from 'remark-youtube';
+import remarkBreaks from 'remark-breaks'
 
 export default async function markdownToHtml(markdown: string) {
   const result = await unified()
     .use(remarkParse)
     .use(remarkYoutube)
+    .use(remarkBreaks)
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeCodeTitles)
